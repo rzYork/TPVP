@@ -1,0 +1,17 @@
+message_prefix: '&3&l[提示]&7: &r&8'
+message_get_red: '&4&l由于您击杀了一名白名玩家!您已经进入红名状态!已经增加%tpvp_sin_gain_per_kill%点罪恶值! 每%tpvp_time_sin_decrease%会减少为一点!罪恶值归零后重新回归白名状态!'
+message_get_kill: '&4&l您再度击杀了一名白名玩家! 罪恶值增加了%tpvp_sin_gain_per_kill%点,总计罪恶值 %tpvp_red_sin% 点'
+pvp:
+  time_gray_disappear: 300
+  sin_gain_per_kill: 10
+  time_sin_decrease: 360
+  item_drop_gray: 2
+  item_drop_red: 9
+  battle_time: 30
+area:
+  green_prefix: 'green_'
+  yellow_prefix: 'yellow_'
+  red_prefix: 'red_'
+  god_refresh_time: 30
+  god_duration: 5
+  green_force_kill_time: 10

@@ -1,0 +1,18 @@
+name: TPVP
+version: '${project.version}'
+main: com.tracer0219.tpvp.tpvp.TPVP
+api-version: 1.16
+depend: [ PlaceholderAPI, Vault, PlayerPoints, WorldGuard ]
+authors: [ Tracer ]
+description: TPVP region plugin
+commands:
+  tpvp:
+    usage: §c§l/<command> ?
+    permission: tpvp.use
+    permission-message: §c§l你没有权限使用这个指令!
+permissions:
+  tpvp.use:
+    default: true
+  tpvp.admin:
+    default: false
+    description: 无视一切跨区和PVP状态影响
